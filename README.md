@@ -4,7 +4,7 @@ A calendar, weekly timetable, task manager, habit tracker, goal tracker, focus
 timer, journal and insights dashboard in one app. Plain HTML, CSS and
 JavaScript: no build step, no server, no account.
 
-**Live:** https://ziadwael364.github.io/almanac/
+**Live:** https://ziadwael364.github.io/ALmanac/
 
 **Run it:** open `index.html` in a browser. That's it.
 
