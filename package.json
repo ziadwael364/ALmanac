@@ -1,0 +1,11 @@
+{
+  "name": "almanac-planner",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Almanac — personal life planner (static site + tiny server)",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.js",
+    "build": "node build.js"
+  }
+}
