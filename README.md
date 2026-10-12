@@ -8,8 +8,8 @@ JavaScript: no build step, no server, no account.
 
 **Run it:** open `index.html` in a browser. That's it.
 
-Want one file you can copy anywhere? `node planner/build.js` writes
-`planner/dist/almanac.html` with everything inlined.
+Want one file you can copy anywhere? `node build.js` writes
+`dist/almanac.html` with everything inlined.
 
 The first time it opens it loads **example data** so every screen has
 something in it. Press **Clear and start fresh** on the banner when you are
