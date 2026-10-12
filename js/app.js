@@ -706,10 +706,8 @@
       A.state = A.hydrate(local);
       A.savedAt = local.savedAt || 0;
     } else {
-      var s = A.emptyState(), sample = A.sampleData();
-      Object.keys(sample).forEach(function (k) { s[k] = k === 'projects' ? s.projects.concat(sample.projects) : sample[k]; });
-      s.settings.sample = true;
-      A.state = s; A.savedAt = 0;
+      /* First run starts empty. Example data is one click away in Settings. */
+      A.state = A.emptyState(); A.savedAt = 0;
       A.persist.writeLocal();
     }
     restoreUI();

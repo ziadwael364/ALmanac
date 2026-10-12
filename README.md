@@ -11,9 +11,8 @@ JavaScript: no build step, no server, no account.
 Want one file you can copy anywhere? `node build.js` writes
 `dist/almanac.html` with everything inlined.
 
-The first time it opens it loads **example data** so every screen has
-something in it. Press **Clear and start fresh** on the banner when you are
-ready to use it for real.
+It starts empty. Want to see it full first? **Settings → Load example data**
+fills every screen, and **Clear and start fresh** on the banner removes it.
 
 See [PLAN.md](PLAN.md) for the design plan and data model.
 
